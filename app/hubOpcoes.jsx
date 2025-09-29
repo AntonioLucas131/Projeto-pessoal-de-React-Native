@@ -12,7 +12,7 @@ const HubOpcoes = () => {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.titulo}>
-        Escolha um dos Regimentos para saber mais sobre ele.
+        Escolha um dos Capítulos para saber mais sobre ele.
       </Text>
     
       <View style={styles.grid}>

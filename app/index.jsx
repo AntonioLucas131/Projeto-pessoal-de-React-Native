@@ -21,7 +21,7 @@ const Home = () => {
       </Image>
       
       <Text style={styles.titulo}>
-        Regimentos do Adeptus Astartes
+        Capítulos do Adeptus Astartes
       </Text>
 
       <View>

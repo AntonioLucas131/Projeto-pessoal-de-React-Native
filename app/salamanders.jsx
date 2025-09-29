@@ -1,6 +1,6 @@
 import {Text, View, Image, StyleSheet, ImageBackground, Pressable, ScrollView} from 'react-native';
 import React from 'react'
-import salamander from "../assets/images/soldados/salamander.jpg"
+import salamander from "../assets/images/soldados/salamanders.jpg"
 
 const Salamanders = () => {
   return (
@@ -18,7 +18,7 @@ const Salamanders = () => {
 							assim as almas dos homens são testadas como metal no fogo da forja. "
 					</Text>
 					<Text style={styles.autor}>
-							—O Primarca Vulkan
+							—O Primarca Vulkan.
 					</Text>
 				</View>
 
@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
    container:{
     flex: 1,
     backgroundColor: '#333',
+    paddingBottom: 10,
   },
   texto:{
     fontSize: 18,

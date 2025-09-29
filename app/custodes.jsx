@@ -21,7 +21,7 @@ const Custodes = () => {
 							Ninguém os impedirá de me seguir e ninguém atrapalhará ou atrasará sua missão. Assim está decretado! "
 					</Text>
 					<Text style={styles.autor}>
-							—Antiga declaração feita pelo Imperador da Humanidade durante a Era da Conflito
+							—Antiga declaração feita pelo Imperador da Humanidade durante a Era da Conflito.
 					</Text>
 			</View>
 
@@ -52,9 +52,10 @@ const Custodes = () => {
 export default Custodes;
 
 const styles = StyleSheet.create({
-   container:{
+  container:{
     flex: 1,
     backgroundColor: '#333',
+    paddingBottom: 10,
   },
   texto:{
     fontSize: 18,
@@ -63,7 +64,7 @@ const styles = StyleSheet.create({
   },
   
   titulo:{
-    marginTop: 30,
+    
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
