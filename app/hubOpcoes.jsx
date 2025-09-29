@@ -64,12 +64,6 @@ const HubOpcoes = () => {
     
       
     
-    
-    
-    
-    
-    
-    
     </ScrollView>
   )
 }
